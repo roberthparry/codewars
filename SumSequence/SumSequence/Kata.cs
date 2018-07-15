@@ -7,8 +7,7 @@ public static class Kata
     {
         if (n < 0) return $"{n}<0";
         if (n == 0) return "0=0";
+        string SequenceStringBuilder(int m) => (m < 2) ? "1" : $"{SequenceStringBuilder(m - 1)}+{m}";
         return $"{SequenceStringBuilder(n)}={n*(n+1)/2}";
     }
-
-    private static string SequenceStringBuilder(int n) => (n < 2) ? "1" : $"{SequenceStringBuilder(n-1)}+{n}";
 }
