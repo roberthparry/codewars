@@ -1,0 +1,15 @@
+﻿<Properties StartupConfiguration="{09148010-6E6D-4BB0-B3E7-39746B7768E2}|Unit Tests">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ValidCredCardNum/solution.cs">
+    <Files>
+      <File FileName="ValidCredCardNum/Tests.cs" Line="24" Column="2" />
+      <File FileName="ValidCredCardNum/solution.cs" Line="13" Column="14" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.ValidCredCardNum PreferredExecutionTarget="MonoDevelop.Default" FirstBuild="True" />
+  <MultiItemStartupConfigurations />
+</Properties>

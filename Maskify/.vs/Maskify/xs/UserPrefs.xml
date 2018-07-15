@@ -1,0 +1,15 @@
+﻿<Properties StartupConfiguration="{CA9FB0C8-A46D-42E9-AB12-F0BC8FCEC1F0}|Unit Tests">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Maskify/Kata.cs">
+    <Files>
+      <File FileName="Maskify/Tests.cs" Line="13" Column="2" />
+      <File FileName="Maskify/Kata.cs" Line="10" Column="2" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Maskify PreferredExecutionTarget="MonoDevelop.Default" FirstBuild="True" />
+  <MultiItemStartupConfigurations />
+</Properties>

@@ -1,0 +1,15 @@
+﻿<Properties StartupConfiguration="{397B7A76-9376-425E-A3AE-4334EE97EFA7}|Unit Tests">
+  <MonoDevelop.Ide.Workbench ActiveDocument="DescendingOrder/Tests.cs">
+    <Files>
+      <File FileName="DescendingOrder/Tests.cs" Line="25" Column="69" />
+      <File FileName="DescendingOrder/Kata.cs" Line="21" Column="29" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.DescendingOrder PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>

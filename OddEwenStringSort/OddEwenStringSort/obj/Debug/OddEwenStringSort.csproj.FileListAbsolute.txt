@@ -1,0 +1,10 @@
+/Users/rparry/projects/OddEwenStringSort/OddEwenStringSort/bin/Debug/OddEwenStringSort.dll
+/Users/rparry/projects/OddEwenStringSort/OddEwenStringSort/bin/Debug/OddEwenStringSort.pdb
+/Users/rparry/projects/OddEwenStringSort/OddEwenStringSort/bin/Debug/nunit.framework.dll
+/Users/rparry/projects/OddEwenStringSort/OddEwenStringSort/bin/Debug/Xamarin.UITest.dll
+/Users/rparry/projects/OddEwenStringSort/OddEwenStringSort/bin/Debug/nunit.framework.xml
+/Users/rparry/projects/OddEwenStringSort/OddEwenStringSort/bin/Debug/Xamarin.UITest.xml
+/Users/rparry/projects/OddEwenStringSort/OddEwenStringSort/obj/Debug/OddEwenStringSort.csprojResolveAssemblyReference.cache
+/Users/rparry/projects/OddEwenStringSort/OddEwenStringSort/obj/Debug/OddEwenStringSort.csproj.CoreCompileInputs.cache
+/Users/rparry/projects/OddEwenStringSort/OddEwenStringSort/obj/Debug/OddEwenStringSort.dll
+/Users/rparry/projects/OddEwenStringSort/OddEwenStringSort/obj/Debug/OddEwenStringSort.pdb

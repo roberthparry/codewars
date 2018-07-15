@@ -1,0 +1,15 @@
+﻿<Properties StartupConfiguration="{5229D05C-0D4F-4DFD-87D4-946E23007F8F}|Unit Tests">
+  <MonoDevelop.Ide.Workbench ActiveDocument="RomanNumeralConverter/RomanDecode.cs">
+    <Files>
+      <File FileName="RomanNumeralConverter/Tests.cs" Line="14" Column="1" />
+      <File FileName="RomanNumeralConverter/RomanDecode.cs" Line="38" Column="2" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.RomanNumeralConverter PreferredExecutionTarget="MonoDevelop.Default" FirstBuild="True" />
+</Properties>

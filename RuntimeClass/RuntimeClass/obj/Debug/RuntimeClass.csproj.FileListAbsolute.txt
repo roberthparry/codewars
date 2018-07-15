@@ -1,0 +1,10 @@
+/Users/rparry/projects/RuntimeClass/RuntimeClass/obj/Debug/RuntimeClass.csprojResolveAssemblyReference.cache
+/Users/rparry/projects/RuntimeClass/RuntimeClass/obj/Debug/RuntimeClass.csproj.CoreCompileInputs.cache
+/Users/rparry/projects/RuntimeClass/RuntimeClass/bin/Debug/RuntimeClass.dll
+/Users/rparry/projects/RuntimeClass/RuntimeClass/bin/Debug/RuntimeClass.pdb
+/Users/rparry/projects/RuntimeClass/RuntimeClass/bin/Debug/nunit.framework.dll
+/Users/rparry/projects/RuntimeClass/RuntimeClass/bin/Debug/Xamarin.UITest.dll
+/Users/rparry/projects/RuntimeClass/RuntimeClass/bin/Debug/nunit.framework.xml
+/Users/rparry/projects/RuntimeClass/RuntimeClass/bin/Debug/Xamarin.UITest.xml
+/Users/rparry/projects/RuntimeClass/RuntimeClass/obj/Debug/RuntimeClass.dll
+/Users/rparry/projects/RuntimeClass/RuntimeClass/obj/Debug/RuntimeClass.pdb

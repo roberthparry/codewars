@@ -1,0 +1,15 @@
+﻿<Properties StartupConfiguration="{A3D1958A-5156-4C1B-B5F3-CF6A30CC92BA}|Unit Tests">
+  <MonoDevelop.Ide.Workbench ActiveDocument="SumSequence/Kata.cs">
+    <Files>
+      <File FileName="SumSequence/Tests.cs" Line="1" Column="1" />
+      <File FileName="SumSequence/Kata.cs" Line="14" Column="2" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.SumSequence PreferredExecutionTarget="MonoDevelop.Default" FirstBuild="True" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>

@@ -1,0 +1,15 @@
+﻿<Properties StartupConfiguration="{E465080F-140C-4DED-9D3A-99CDC743BCF7}|Unit Tests">
+  <MonoDevelop.Ide.Workbench ActiveDocument="RuntimeClass/Kata.cs">
+    <Files>
+      <File FileName="RuntimeClass/Kata.cs" Line="22" Column="1" />
+      <File FileName="RuntimeClass/Tests.cs" Line="33" Column="2" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.RuntimeClass PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
+</Properties>
