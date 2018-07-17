@@ -1,2 +1,0 @@
-/Users/rparry/projects/Thirteen/Thirteen/obj/Debug/Thirteen.csprojResolveAssemblyReference.cache
-/Users/rparry/projects/Thirteen/Thirteen/obj/Debug/Thirteen.csproj.CoreCompileInputs.cache
