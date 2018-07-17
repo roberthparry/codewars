@@ -1,7 +1,9 @@
 using System;
 using NUnit.Framework;
 
-namespace ComplexLogarithm
+using Kata;
+
+namespace KataTests
 {
     [TestFixture]
     public class LogTest

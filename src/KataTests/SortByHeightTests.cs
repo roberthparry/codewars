@@ -1,4 +1,6 @@
-namespace myjinxin
+using Kata;
+
+namespace KataTests
 {
     using NUnit.Framework;
     using System;
@@ -9,7 +11,7 @@ namespace myjinxin
         
         [Test]
         public void BasicTests(){
-            var kata=new Kata();
+            var kata=new SortedByHeight();
 
             Assert.AreEqual(new int[]{-1, 150, 160, 170, -1, -1, 180, 190},kata.SortByHeight(new int[]{-1, 150, 190, 170, -1, -1, 160, 180}));
             

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ComplexLogarithm
+namespace Kata
 {
     public static class ComplexLog
     {

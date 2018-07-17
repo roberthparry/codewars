@@ -1,13 +1,18 @@
-﻿using System;
-using NUnit.Framework;
+﻿using NUnit.Framework;
 
-[TestFixture]
-public class RomanDecodeTests
+using Kata;
+
+namespace KataTests
 {
-    [TestCase(1, "I")]
-    public void Test(int expected, string roman)
+    [TestFixture]
+    public class RomanDecodeTests
     {
-        Assert.AreEqual(expected, RomanDecode.Solution(roman));
+        [TestCase(1, "I")]
+        public void Test(int expected, string roman)
+        {
+            Assert.AreEqual(expected, RomanDecode.Solution(roman));
+        }
     }
 }
+
 

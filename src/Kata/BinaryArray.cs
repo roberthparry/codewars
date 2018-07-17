@@ -1,6 +1,6 @@
 ﻿using System.Linq;
 
-namespace Solution
+namespace Kata
 {
     class BinaryArray
     {

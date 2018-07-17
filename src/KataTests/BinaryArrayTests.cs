@@ -1,8 +1,10 @@
-﻿namespace Solution
-{
-    using NUnit.Framework;
-    using System;
+﻿using NUnit.Framework;
+using System;
 
+using Kata;
+
+namespace Solution
+{
     [TestFixture]
     public class BinaryArrayTests
     {

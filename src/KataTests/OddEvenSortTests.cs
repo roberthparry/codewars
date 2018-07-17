@@ -1,4 +1,6 @@
-﻿namespace Solution
+﻿using Kata;
+
+namespace KataTests
 {
     using NUnit.Framework;
     using System;

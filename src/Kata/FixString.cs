@@ -1,15 +1,18 @@
-class FixString
+namespace Kata
 {
-    public static string Solve(string s)
+    class FixString
     {
-        int uppers = 0, lowers = 0;
-        foreach (char ch in s)
+        public static string Solve(string s)
         {
-            if (char.IsUpper(ch))
-                uppers++;
-            else if (char.IsLower(ch))
-                lowers++;
+            int uppers = 0, lowers = 0;
+            foreach (char ch in s)
+            {
+                if (char.IsUpper(ch))
+                    uppers++;
+                else if (char.IsLower(ch))
+                    lowers++;
+            }
+            return (uppers > lowers) ? s.ToUpper() : s.ToLower();
         }
-        return (uppers > lowers) ? s.ToUpper() : s.ToLower();
-    }
+    }    
 }

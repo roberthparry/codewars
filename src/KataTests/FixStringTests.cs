@@ -1,14 +1,19 @@
 using NUnit.Framework;
 
-[TestFixture]
-class FixStringTests
+using Kata;
+
+namespace KataTests
 {
-    [TestCase("code", "code")]
-    [TestCase("CODe", "CODE")]
-    [TestCase("COde", "code")]
-    [TestCase("Code", "code")]
-    public void BasicTests(string s, string expected)
+    [TestFixture]
+    class FixStringTests
     {
-        Assert.That(FixString.Solve(s), Is.EqualTo(expected));
-    }
+        [TestCase("code", "code")]
+        [TestCase("CODe", "CODE")]
+        [TestCase("COde", "code")]
+        [TestCase("Code", "code")]
+        public void BasicTests(string s, string expected)
+        {
+            Assert.That(FixString.Solve(s), Is.EqualTo(expected));
+        }
+    } 
 }

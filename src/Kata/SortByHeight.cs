@@ -1,10 +1,10 @@
 using System.Linq;
 
-namespace myjinxin
+namespace Kata
 {
     using System;
     
-    public class Kata
+    public class SortedByHeight
     {
         public int[] SortByHeight(int[] a)
         {
