@@ -11,9 +11,7 @@ namespace Kata
             "Blue", "Green", "Cyan", "Red", "Magenta", "Yellow", "White"
         };
 
-        private static Dictionary<string, int> _wordLookup = Enumerable.Range(1, 7).ToDictionary(n => Colors[n - 1], n => n);
-
-        public static string[] Colors { get => _colors; set => _colors = value; }
+        private static Dictionary<string, int> _wordLookup = Enumerable.Range(1, 7).ToDictionary(n => _colors[n - 1], n => n);
 
         public static string AdditiveColors(string input)
         {
@@ -21,7 +19,7 @@ namespace Kata
             foreach (string color in input.Split(',').Select(s => s.Trim()).ToArray())
                 colorMix |= _wordLookup[color];
 
-            return Colors[colorMix - 1];
+			return _colors[colorMix - 1];
         }
     }
 }
