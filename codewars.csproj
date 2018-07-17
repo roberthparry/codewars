@@ -72,6 +72,8 @@
     <Compile Include="src\KataTests\SumSquareTests.cs" />
     <Compile Include="src\KataTests\ThirteenTests.cs" />
     <Compile Include="src\KataTests\ValidCredCardTests.cs" />
+    <Compile Include="src\Kata\NextSmallestNum.cs" />
+    <Compile Include="src\KataTests\NextSmallestNumTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
