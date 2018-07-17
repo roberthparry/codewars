@@ -1,11 +1,10 @@
 ﻿using NUnit.Framework;
-using System;
 
 using Kata;
 
 namespace KataTests
 {
-    [TestFixture]
+	[TestFixture]
     public class AdditiveTests
     {
         [Test]

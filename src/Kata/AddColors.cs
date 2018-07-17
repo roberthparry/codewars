@@ -1,10 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
 
 namespace Kata
 {
-    public static class AddColors
+	public static class AddColors
     {
         private static string[] _colors = new string[]
         {

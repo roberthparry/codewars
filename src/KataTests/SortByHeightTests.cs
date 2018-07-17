@@ -1,10 +1,9 @@
+using NUnit.Framework;
+
 using Kata;
 
 namespace KataTests
 {
-    using NUnit.Framework;
-    using System;
-    
     [TestFixture]
     public class myjinxin
     {
