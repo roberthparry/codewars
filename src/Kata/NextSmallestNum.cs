@@ -15,13 +15,8 @@ public class NextSmallestNum
 
 	private static long MaxNumberLessThan(List<long> numbers, long n)
 	{
-		long maxNumLessThanN = -1;
-        foreach (long num in numbers)
-		{
-			if (num >= n) continue;
-			if (maxNumLessThanN < num) maxNumLessThanN = num;
-		}
-		return maxNumLessThanN;
+        IEnumerable<long> numbersLess = numbers.Where(num => num < n);
+        return numbersLess.Count() == 0 ? -1 : numbersLess.Max();
 	}
 
 	private static List<List<int>> Permutations(List<int> list)
