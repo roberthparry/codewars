@@ -74,6 +74,8 @@
     <Compile Include="src\KataTests\ValidCredCardTests.cs" />
     <Compile Include="src\Kata\NextSmallestNum.cs" />
     <Compile Include="src\KataTests\NextSmallestNumTests.cs" />
+    <Compile Include="src\Kata\ComplexExponent.cs" />
+    <Compile Include="src\KataTests\ComplexExponentTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
