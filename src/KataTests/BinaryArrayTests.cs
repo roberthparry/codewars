@@ -1,9 +1,8 @@
 ﻿using NUnit.Framework;
-using System;
 
 using Kata;
 
-namespace Solution
+namespace KataTests
 {
     [TestFixture]
     public class BinaryArrayTests

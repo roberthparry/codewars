@@ -3,7 +3,7 @@
     public class Thirteen
     {
 
-        private static long[] _10PowMod13 = new long[] { 1, 10, 9, 12, 3, 4 };
+        private static readonly long[] _10PowMod13 = new long[] { 1, 10, 9, 12, 3, 4 };
 
         public static long Thirt(long n)
         {

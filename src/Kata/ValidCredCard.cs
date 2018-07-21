@@ -4,7 +4,7 @@ namespace Kata
 {
     public class ValidCredCard
     {
-        public bool validate(string n)
+        public bool Validate(string n)
         {
             int sum = 0;
             bool doubleIt = false;
@@ -23,5 +23,10 @@ namespace Kata
             }
             return (sum % 10) == 0;
         }
-    }    
+
+		internal int validate(string v)
+		{
+			throw new NotImplementedException();
+		}
+	}    
 }
