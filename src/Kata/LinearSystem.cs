@@ -18,7 +18,7 @@
                 return "SOLUTION=NONE";
 
             var vector = DenseVector.OfArray(y);
-            var result = matrix.Inverse().Multiply(vector);
+            var result = matrix.Inverse() * vector;
             return $"SOLUTION=({string.Join("; ", result.Select(e => $"{e}"))})";
         }
 
