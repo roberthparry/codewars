@@ -1,11 +1,11 @@
-﻿namespace LinearSystems
-{
-    using System;
-    using System.Collections.Generic;
-    using System.Linq;
-    using System.Text.RegularExpressions;
-    using MathNet.Numerics.LinearAlgebra.Double;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text.RegularExpressions;
+using MathNet.Numerics.LinearAlgebra.Double;
 
+namespace Kata
+{
     public class LinearSystem
     {
 
