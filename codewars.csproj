@@ -33,6 +33,11 @@
       <HintPath>packages\Xamarin.UITest.2.0.8\lib\Xamarin.UITest.dll</HintPath>
     </Reference>
     <Reference Include="System.Numerics" />
+    <Reference Include="MathNet.Numerics">
+      <HintPath>packages\MathNet.Numerics.4.5.1\lib\net461\MathNet.Numerics.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="src\Kata\AddColors.cs" />
@@ -79,6 +84,8 @@
     <Compile Include="src\KataTests\ComplexExponentTests.cs" />
     <Compile Include="src\Kata\PipiNumbers.cs" />
     <Compile Include="src\KataTests\PipiNumbersTests.cs" />
+    <Compile Include="src\Kata\LinearSystem.cs" />
+    <Compile Include="src\KataTests\LinearSystemTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
