@@ -11,6 +11,19 @@
 
         public string Solve(string input)
         {
+            InputToMatrixAndVector(input, out double[,] m, out double[] y);
+
+            var matrix = DenseMatrix.OfArray(m);
+            if (Math.Abs(matrix.Determinant()) < 1.0e-12)
+                return "SOLUTION=NONE";
+
+            var vector = DenseVector.OfArray(y);
+            var result = matrix.Inverse().Multiply(vector);
+            return $"SOLUTION=({string.Join("; ", result.Select(e => $"{e}"))})";
+        }
+
+        private static void InputToMatrixAndVector(string input, out double[,] matrix, out double[] vector)
+        {
             string[] lines = Regex.Split(input, "\r\n|\r|\n");
             double[][] table = lines.Select(l => Regex.Split(l, @"\s+")
                                                       .Where(s => s != string.Empty)
@@ -28,19 +41,11 @@
                 mlistlist.Add(mlist);
             }
 
-            double[] y = ylist.ToArray();
-            double[,] m = new double[mlistlist.Count, mlistlist[0].Count];
+            vector = ylist.ToArray();
+            matrix = new double[mlistlist.Count, mlistlist[0].Count];
             for (int i = 0; i < mlistlist.Count; i++)
                 for (int j = 0; j < mlistlist[i].Count; j++)
-                    m[i, j] = mlistlist[i][j];
-
-            var matrix = DenseMatrix.OfArray(m);
-            if (Math.Abs(matrix.Determinant()) < 1.0e-12)
-                return "SOLUTION=NONE";
-
-            var vector = DenseVector.OfArray(y);
-            var result = matrix.Inverse().Multiply(vector);
-            return $"SOLUTION=({string.Join("; ", result.Select(e => $"{e}"))})";
+                    matrix[i, j] = mlistlist[i][j];
         }
     }
 }
