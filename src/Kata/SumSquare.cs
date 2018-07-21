@@ -1,9 +1,13 @@
 ﻿using System.Linq;
 
-public static class SumSquare
+namespace Kata
 {
-    public static int SquareSum(int[] n)
+    public static class SumSquare
     {
-		return n.Sum(m => m * m);
-    }
+        public static int SquareSum(int[] n)
+        {
+            return n.Sum(m => m * m);
+        }
+    }  
 }
+

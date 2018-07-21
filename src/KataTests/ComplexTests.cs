@@ -5,7 +5,7 @@ using Kata;
 namespace KataTests
 {
     [TestFixture]
-    public class SolutionTest
+    public class ComplexTests
     {
         [Test]
         public void RealPart()
