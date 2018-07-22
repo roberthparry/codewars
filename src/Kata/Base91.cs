@@ -7,7 +7,7 @@ class Base91
 {
     private static string EncodeTable = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!#$%&()*+,./:;<=>?@[]^_`{|}~";
 
-    private static Dictionary<byte, int> DecodeTable = EncodeTable
+    private static readonly Dictionary<byte, int> DecodeTable = EncodeTable
         .Select((v, i) => new { Key = (byte)v, Value = i })
         .ToDictionary(o => o.Key, o => o.Value);
 
@@ -33,16 +33,16 @@ class Base91
                     b >>= 14;
                     n -= 14;
                 }
-                builder.Append((char)EncodeTable[v % 91]);
-                builder.Append((char)EncodeTable[v / 91]);
-            }
-        }
+                builder.Append(EncodeTable[v % 91]);
+				builder.Append(EncodeTable[v / 91]);
+			}
+		}
 
-        if (n != 0)
+		if (n != 0)
         {
-            builder.Append((char)EncodeTable[b % 91]);
+            builder.Append(EncodeTable[b % 91]);
             if (n > 7 || b > 90)
-                builder.Append((char)EncodeTable[b / 91]);
+                builder.Append(EncodeTable[b / 91]);
         }
         return builder.ToString();
     }
