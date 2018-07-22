@@ -96,6 +96,9 @@
     <Compile Include="src\KataTests\AnagramsTests.cs" />
     <Compile Include="src\Kata\Finance.cs" />
     <Compile Include="src\KataTests\FinanceTests.cs" />
+    <Compile Include="src\Kata\AddingBigNumbers.cs" />
+    <Compile Include="src\KataTests\AddingBigNumbersTests.cs" />
+    <Compile Include="src\Kata\IsTuringEquation.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
