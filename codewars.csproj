@@ -90,6 +90,8 @@
     <Compile Include="src\Kata\Base91.cs" />
     <Compile Include="src\Kata\HumanTimeFormat.cs" />
     <Compile Include="src\KataTests\HumanTimeFormatTests.cs" />
+    <Compile Include="src\Kata\HammingNumbers.cs" />
+    <Compile Include="src\KataTests\HammingNumbersTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
