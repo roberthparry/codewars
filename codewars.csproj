@@ -86,6 +86,10 @@
     <Compile Include="src\KataTests\PipiNumbersTests.cs" />
     <Compile Include="src\Kata\LinearSystem.cs" />
     <Compile Include="src\KataTests\LinearSystemTests.cs" />
+    <Compile Include="src\KataTests\Base91Tests.cs" />
+    <Compile Include="src\Kata\Base91.cs" />
+    <Compile Include="src\Kata\HumanTimeFormat.cs" />
+    <Compile Include="src\KataTests\HumanTimeFormatTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

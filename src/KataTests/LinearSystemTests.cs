@@ -1,12 +1,11 @@
-﻿using System;
+﻿using Kata;
 
-namespace LinearSystems
+namespace KataTests
 {
     using NUnit.Framework;
-    using System;
-    [TestFixture]
 
-    public class SolvingTests
+    [TestFixture]
+    public class LinearSystemTests
     {
         [Test]
         public void TestAndVerify1()
