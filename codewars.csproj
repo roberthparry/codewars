@@ -92,6 +92,10 @@
     <Compile Include="src\KataTests\HumanTimeFormatTests.cs" />
     <Compile Include="src\Kata\HammingNumbers.cs" />
     <Compile Include="src\KataTests\HammingNumbersTests.cs" />
+    <Compile Include="src\Kata\Anagrams.cs" />
+    <Compile Include="src\KataTests\AnagramsTests.cs" />
+    <Compile Include="src\Kata\Finance.cs" />
+    <Compile Include="src\KataTests\FinanceTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
