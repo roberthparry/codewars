@@ -1,13 +1,14 @@
 ﻿using System.Numerics;
 using System.Collections.Generic;
 
-namespace Kata 
+namespace Kata
 {
     public class PipiNumbers
     {
-        private static Dictionary<int, BigInteger> pipiNumberDict = new Dictionary<int, BigInteger>{
-        {0, 0}
-    };
+        private static Dictionary<int, BigInteger> pipiNumberDict = new Dictionary<int, BigInteger>
+        {
+            {0, 0}
+        };
 
         public static BigInteger Pipi(int n)
         {
@@ -26,5 +27,5 @@ namespace Kata
 
             return p;
         }
-    } 
+    }
 }
