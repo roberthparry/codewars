@@ -5,7 +5,7 @@ using Kata;
 namespace KataTests
 {
     [TestFixture]
-    public class myjinxin
+    public class SortByHeightTests
     {
         
         [Test]
