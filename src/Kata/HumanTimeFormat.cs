@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace Kata
 {
@@ -7,67 +8,32 @@ namespace Kata
     {
         public static string formatDuration(int seconds)
         {
-            Console.WriteLine($"seconds = {seconds}");
             if (seconds == 0) return "now";
+            IEnumerable<string> quantityDescriptions = DescribedQuantities(seconds);
+            int unitCount = quantityDescriptions.Count();
+            if (unitCount == 1) return quantityDescriptions.Single();
+            string priorQuantities = string.Join(", ", quantityDescriptions.Take(unitCount - 1));
+            return $"{priorQuantities} and {quantityDescriptions.Last()}";
+        }
 
-            var now = DateTime.Now;
-            var later = now.AddSeconds(seconds);
+        private static IEnumerable<string> DescribedQuantities(int seconds)
+        {
+            var timespan = TimeSpan.FromSeconds(seconds);
+            int years = timespan.Days / 365;
+            int days = timespan.Days % 365;
+            if (years > 0) yield return DescribeQuantity(years, "year");
+            if (days > 0) yield return DescribeQuantity(days, "day");
+            if (timespan.Hours > 0) yield return DescribeQuantity(timespan.Hours, "hour");
+            if (timespan.Minutes > 0) yield return DescribeQuantity(timespan.Minutes, "minute");
+            if (timespan.Seconds > 0) yield return DescribeQuantity(timespan.Seconds, "second");
+        }
 
-            Console.WriteLine($"now: {now:yyyy-MM-dd hh:mm:ss}, later: {later:yyyy-MM-dd hh:mm:ss}");
-
-            int nowDoy = now.DayOfYear;
-            int laterDoy = later.DayOfYear;
-            int nowYear = now.Year;
-            int laterYear = later.Year;
-
-            int years = laterYear - nowYear;
-            int days = laterDoy - nowDoy;
-            if (laterDoy < nowDoy)
-            {
-                years--;
-                DateTime thisTimeLater = now.AddYears(years);
-                days = (later - thisTimeLater).Days;
-            }
-
-            int nowHour = now.Hour;
-            int laterHour = later.Hour;
-            if (laterHour < nowHour)
-            {
-                days--;
-                laterHour += 24;
-            }
-
-            int nowMinute = now.Minute;
-            int laterMinute = later.Minute;
-            int hours = laterHour - nowHour;
-            if (laterMinute < nowMinute)
-            {
-                hours--;
-                laterMinute += 60;
-            }
-
-            int nowSecond = now.Second;
-            int laterSecond = later.Second;
-            int minutes = laterMinute - nowMinute;
-            if (laterSecond < nowSecond)
-            {
-                minutes--;
-                laterSecond += 60;
-            }
-
-            int secs = laterSecond - nowSecond;
-
-            var output = new List<string>();
-
-            if (years > 0) output.Add((years > 1) ? $"{years} years" : $"{years} year");
-            if (days > 0) output.Add((days > 1) ? $"{days} days" : $"{days} day");
-            if (hours > 0) output.Add((hours > 1) ? $"{hours} hours" : $"{hours} hour");
-            if (minutes > 0) output.Add((minutes > 1) ? $"{minutes} minutes" : $"{minutes} minute");
-            if (secs > 0) output.Add((secs > 1) ? $"{secs} seconds" : $"{secs} second");
-
-            string final = output.Count > 1 ? $" and {output[output.Count - 1]}" : output[0];
-            string result = $"{string.Join(", ", output.GetRange(0, output.Count - 1))}{final}";
-            return result;
+        private static string DescribeQuantity(int quantity, string unit)
+        {
+            if (quantity == 0) return "";
+            var description = $"{quantity} {unit}";
+            if (quantity > 1) description = $"{description}s";
+            return description;
         }
     }    
 }
