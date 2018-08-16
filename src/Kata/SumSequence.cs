@@ -9,8 +9,14 @@ namespace Kata
         {
             if (n < 0) return $"{n}<0";
             if (n == 0) return "0=0";
-            string SequenceStringBuilder(int m) => (m < 2) ? "1" : $"{SequenceStringBuilder(m - 1)}+{m}";
-            return $"{SequenceStringBuilder(n)}={n * (n + 1) / 2}";
+            string SequenceStringBuilder(int m) => (m < 2) ? "0+1" : $"{SequenceStringBuilder(m - 1)}+{m}";
+            return $"{SequenceStringBuilder(n)} = {n * (n + 1) / 2}";
+        }
+
+        public static String ShowSequence(Int32 n)
+        {
+            if (n <= 0) return n < 0 ? $"{n}<0" : "0=0";
+            return $"0+{String.Join("+", Enumerable.Range(1, n))} = {n * (n + 1) / 2}";
         }
     }
 }
