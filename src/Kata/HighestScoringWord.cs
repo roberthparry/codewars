@@ -4,7 +4,7 @@ namespace Kata
 {
 	public static class HighestScoringWord
 	{
-		public static string High(string s)
+		public static string HighSimple(string s)
 		{
 			int maxScorePos = -1;
 			int maxScore = -1;
@@ -21,5 +21,8 @@ namespace Kata
 			}
 			return words[maxScorePos];
 		}
+
+		private static int Score(string s) => s.Select(e => e - 96).Sum();
+        public static string High(string s) => s.Split(' ').Aggregate((r, e) => Score(r) < Score(e) ? e : r);
 	}
 }

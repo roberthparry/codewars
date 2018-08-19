@@ -19,5 +19,8 @@ namespace KataTests
 
         [Test, TestCaseSource("_testCases")]
 		public string HighestScoringWordTest(string s) => HighestScoringWord.High(s);
+
+		[Test, TestCaseSource("_testCases")]
+        public string HighestScoringWordTestSimple(string s) => HighestScoringWord.HighSimple(s);
     }
 }
