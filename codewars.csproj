@@ -98,6 +98,8 @@
     <Compile Include="src\KataTests\FinanceTests.cs" />
     <Compile Include="src\Kata\AddingBigNumbers.cs" />
     <Compile Include="src\KataTests\AddingBigNumbersTests.cs" />
+    <Compile Include="src\Kata\ReverseNumbers.cs" />
+    <Compile Include="src\KataTests\ReverseNumbersTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
