@@ -108,6 +108,8 @@
     <Compile Include="src\KataTests\ConvertLinkedListTests.cs" />
     <Compile Include="src\Kata\SumTree.cs" />
     <Compile Include="src\KataTests\SumTreeTests.cs" />
+    <Compile Include="src\Kata\UnluckyDay.cs" />
+    <Compile Include="src\KataTests\UnluckyDayTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
