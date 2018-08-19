@@ -102,6 +102,8 @@
     <Compile Include="src\KataTests\ReverseNumbersTests.cs" />
     <Compile Include="src\Kata\HighestScoringWord.cs" />
     <Compile Include="src\KataTests\HighestScoringWordTests.cs" />
+    <Compile Include="src\Kata\PigLatin.cs" />
+    <Compile Include="src\KataTests\PigLatinTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

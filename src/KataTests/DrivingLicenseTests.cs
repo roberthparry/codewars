@@ -1,15 +1,14 @@
 ﻿using NUnit.Framework;
-using System;
 
 using Kata;
 
 namespace KataTests
 {
     [TestFixture]
-    class KataTestClass
+    class DrivingLicenseTest
     {
         [TestCase]
-        public void KataTest1()
+        public void Test1()
         {
             var test = new DrivingLicence();
             string[] data = new string[] { "John", "James", "Smith", "01-Jan-2000", "M" };
@@ -17,7 +16,7 @@ namespace KataTests
         }
 
         [TestCase]
-        public void KataTest2()
+        public void Test2()
         {
             var test = new DrivingLicence();
             string[] data = new string[] { "Johanna", "", "Gibbs", "13-Dec-1981", "F" };
@@ -25,7 +24,7 @@ namespace KataTests
         }
 
         [TestCase]
-        public void KataTest3()
+        public void Test3()
         {
             var test = new DrivingLicence();
             string[] data = new string[] { "Andrew", "Robert", "Lee", "02-September-1981", "M" };
