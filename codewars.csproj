@@ -104,6 +104,8 @@
     <Compile Include="src\KataTests\HighestScoringWordTests.cs" />
     <Compile Include="src\Kata\PigLatin.cs" />
     <Compile Include="src\KataTests\PigLatinTests.cs" />
+    <Compile Include="src\Kata\ConvertLinkedList.cs" />
+    <Compile Include="src\KataTests\ConvertLinkedListTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
