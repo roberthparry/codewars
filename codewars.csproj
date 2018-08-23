@@ -110,6 +110,8 @@
     <Compile Include="src\KataTests\SumTreeTests.cs" />
     <Compile Include="src\Kata\UnluckyDay.cs" />
     <Compile Include="src\KataTests\UnluckyDayTests.cs" />
+    <Compile Include="src\Kata\SpecialNumbers.cs" />
+    <Compile Include="src\KataTests\SpecialNumbersTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
