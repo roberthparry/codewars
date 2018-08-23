@@ -98,6 +98,20 @@
     <Compile Include="src\KataTests\FinanceTests.cs" />
     <Compile Include="src\Kata\AddingBigNumbers.cs" />
     <Compile Include="src\KataTests\AddingBigNumbersTests.cs" />
+    <Compile Include="src\Kata\ReverseNumbers.cs" />
+    <Compile Include="src\KataTests\ReverseNumbersTests.cs" />
+    <Compile Include="src\Kata\HighestScoringWord.cs" />
+    <Compile Include="src\KataTests\HighestScoringWordTests.cs" />
+    <Compile Include="src\Kata\PigLatin.cs" />
+    <Compile Include="src\KataTests\PigLatinTests.cs" />
+    <Compile Include="src\Kata\ConvertLinkedList.cs" />
+    <Compile Include="src\KataTests\ConvertLinkedListTests.cs" />
+    <Compile Include="src\Kata\SumTree.cs" />
+    <Compile Include="src\KataTests\SumTreeTests.cs" />
+    <Compile Include="src\Kata\UnluckyDay.cs" />
+    <Compile Include="src\KataTests\UnluckyDayTests.cs" />
+    <Compile Include="src\Kata\SpecialNumbers.cs" />
+    <Compile Include="src\KataTests\SpecialNumbersTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
