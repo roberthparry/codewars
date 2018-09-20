@@ -6,7 +6,7 @@ namespace Kata
 {
     public class HumanTimeFormat
     {
-        public static string formatDuration(int seconds)
+        public static string FormatDuration(int seconds)
         {
             if (seconds == 0) return "now";
             IEnumerable<string> quantityDescriptions = DescribedQuantities(seconds);
