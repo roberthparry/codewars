@@ -1,6 +1,6 @@
 ﻿namespace Kata
 {
-    public class IntegerDepth
+    public static class IntegerDepth
     {
         public static void AddToSet(int n, ref int set)
         {
