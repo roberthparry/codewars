@@ -12,9 +12,14 @@
         public static int ComputeDepth(int n)
         {
             int digitSet = 0;
-            int depth;
-            for (depth = 0; depth < 1023; depth++)
+            int depth = 0;
+            do
+            {
+                depth++;
                 AddDigitsToDigitSet(n * depth, ref digitSet);
+
+            } while (digitSet < 1023);
+
             return depth;
         }
 

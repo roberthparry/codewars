@@ -118,6 +118,12 @@
     <Compile Include="src\KataTests\IntegerDepthTest.cs" />
     <Compile Include="src\Kata\ArrayDifference.cs" />
     <Compile Include="src\KataTests\ArrayDifferenceTest.cs" />
+    <Compile Include="src\Kata\ConvertToCamelCase.cs" />
+    <Compile Include="src\KataTests\ConvertToCamelCaseTest.cs" />
+    <Compile Include="src\Kata\MoveZerosToEnd.cs" />
+    <Compile Include="src\KataTests\MoveZerosToEndTest.cs" />
+    <Compile Include="src\Kata\CollisionDetection.cs" />
+    <Compile Include="src\KataTests\ColisionDetectionTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
