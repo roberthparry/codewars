@@ -112,6 +112,12 @@
     <Compile Include="src\KataTests\UnluckyDayTests.cs" />
     <Compile Include="src\Kata\SpecialNumbers.cs" />
     <Compile Include="src\KataTests\SpecialNumbersTests.cs" />
+    <Compile Include="src\Kata\MyJinxin.cs" />
+    <Compile Include="src\KataTests\MyJinxinTest.cs" />
+    <Compile Include="src\Kata\IntegerDepth.cs" />
+    <Compile Include="src\KataTests\IntegerDepthTest.cs" />
+    <Compile Include="src\Kata\ArrayDifference.cs" />
+    <Compile Include="src\KataTests\ArrayDifferenceTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
