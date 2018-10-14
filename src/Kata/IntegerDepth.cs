@@ -2,25 +2,19 @@
 {
     public static class IntegerDepth
     {
-        public static void AddToSet(int n, ref int set)
+        public static void AddDigitsToDigitSet(int n, ref int digitSet)
         {
-            set |= 1 << (n % 10);
-
-            if (n < 10)
-                return;
-
-            AddToSet(n / 10, ref set);
+            digitSet |= 1 << (n % 10);
+            if (n < 10) return;
+            AddDigitsToDigitSet(n / 10, ref digitSet);
         }
 
         public static int ComputeDepth(int n)
         {
-            int set = 0;
-            int depth = 0;
-            do
-            {
-                depth++;
-                AddToSet(n * depth, ref set);
-            } while (set < 1023);
+            int digitSet = 0;
+            int depth;
+            for (depth = 0; depth < 1023; depth++)
+                AddDigitsToDigitSet(n * depth, ref digitSet);
             return depth;
         }
 
