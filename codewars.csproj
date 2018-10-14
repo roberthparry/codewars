@@ -116,6 +116,8 @@
     <Compile Include="src\KataTests\MyJinxinTest.cs" />
     <Compile Include="src\Kata\IntegerDepth.cs" />
     <Compile Include="src\KataTests\IntegerDepthTest.cs" />
+    <Compile Include="src\Kata\ArrayDifference.cs" />
+    <Compile Include="src\KataTests\ArrayDifferenceTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
