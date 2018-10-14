@@ -30,7 +30,7 @@ namespace KataTests
         {
             Rectangle2 r;
             Point2 p;
-            r = new Rectangle2((float)(45 * (Math.PI / 180.0f)), 4f, 6f, new Point2(2f, 3f));
+            r = new Rectangle2((float)(-675 * (Math.PI / 180.0f)), 4f, 6f, new Point2(2f, 3f));
             p = new Point2(-1f, 4f);
             Assert.That(r.HasCollided(p), Is.False, "(-1f, 4f) is not contained within the rectangle.");
 

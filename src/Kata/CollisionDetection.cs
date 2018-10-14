@@ -42,6 +42,8 @@ namespace Kata
 
     public static class Rectangle2Extensions
     {
+        private const float _2PI = 2.0f * (float)Math.PI;
+
         public static bool HasCollided(this Rectangle2 rect, Point2 point)
         {
             point -= rect.Position;
@@ -63,7 +65,8 @@ namespace Kata
         {
             float cos = (float)Math.Cos(angle);
             float sin = (float)Math.Sqrt(1.0 - cos * cos);
-            angle %= 2.0f * (float)Math.PI;
+            angle %= _2PI;
+            if (angle < 0.0f) angle += _2PI;
             if (angle > (float)Math.PI) sin = -sin;
             return (sin, cos);
         }
