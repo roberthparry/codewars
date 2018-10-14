@@ -47,12 +47,16 @@ namespace Kata
         public static bool HasCollided(this Rectangle2 rect, Point2 point)
         {
             point -= rect.Position;
-            point = point.RotateAboutOrigin(rect.Rotation);
-            point.X *= 2.0f;
-            point.Y *= 2.0f;
-
+            point = point.RotateAboutOrigin(rect.Rotation).Scale(2.0f);
             return -rect.WidthX < point.X && point.X < rect.WidthX &&
                    -rect.WidthY < point.Y && point.Y < rect.WidthY;
+        }
+
+        private static Point2 Scale(this Point2 point, float factor)
+        {
+            point.X *= factor;
+            point.Y *= factor;
+            return point;
         }
 
         private static Point2 RotateAboutOrigin(this Point2 point, float angle)
