@@ -46,8 +46,11 @@ namespace Kata
         {
             point -= rect.Position;
             point = point.RotateAboutOrigin(rect.Rotation);
-            return -0.5f * rect.WidthX < point.X && point.X < 0.5f * rect.WidthX &&
-                   -0.5f * rect.WidthY < point.Y && point.Y < 0.5f * rect.WidthY;
+            point.X *= 2.0f;
+            point.Y *= 2.0f;
+
+            return -rect.WidthX < point.X && point.X < rect.WidthX &&
+                   -rect.WidthY < point.Y && point.Y < rect.WidthY;
         }
 
         private static Point2 RotateAboutOrigin(this Point2 point, float angle)
