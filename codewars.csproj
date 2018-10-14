@@ -98,6 +98,32 @@
     <Compile Include="src\KataTests\FinanceTests.cs" />
     <Compile Include="src\Kata\AddingBigNumbers.cs" />
     <Compile Include="src\KataTests\AddingBigNumbersTests.cs" />
+    <Compile Include="src\Kata\ReverseNumbers.cs" />
+    <Compile Include="src\KataTests\ReverseNumbersTests.cs" />
+    <Compile Include="src\Kata\HighestScoringWord.cs" />
+    <Compile Include="src\KataTests\HighestScoringWordTests.cs" />
+    <Compile Include="src\Kata\PigLatin.cs" />
+    <Compile Include="src\KataTests\PigLatinTests.cs" />
+    <Compile Include="src\Kata\ConvertLinkedList.cs" />
+    <Compile Include="src\KataTests\ConvertLinkedListTests.cs" />
+    <Compile Include="src\Kata\SumTree.cs" />
+    <Compile Include="src\KataTests\SumTreeTests.cs" />
+    <Compile Include="src\Kata\UnluckyDay.cs" />
+    <Compile Include="src\KataTests\UnluckyDayTests.cs" />
+    <Compile Include="src\Kata\SpecialNumbers.cs" />
+    <Compile Include="src\KataTests\SpecialNumbersTests.cs" />
+    <Compile Include="src\Kata\MyJinxin.cs" />
+    <Compile Include="src\KataTests\MyJinxinTest.cs" />
+    <Compile Include="src\Kata\IntegerDepth.cs" />
+    <Compile Include="src\KataTests\IntegerDepthTest.cs" />
+    <Compile Include="src\Kata\ArrayDifference.cs" />
+    <Compile Include="src\KataTests\ArrayDifferenceTest.cs" />
+    <Compile Include="src\Kata\ConvertToCamelCase.cs" />
+    <Compile Include="src\KataTests\ConvertToCamelCaseTest.cs" />
+    <Compile Include="src\Kata\MoveZerosToEnd.cs" />
+    <Compile Include="src\KataTests\MoveZerosToEndTest.cs" />
+    <Compile Include="src\Kata\CollisionDetection.cs" />
+    <Compile Include="src\KataTests\ColisionDetectionTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

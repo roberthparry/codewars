@@ -18,7 +18,7 @@ namespace KataTests
         [TestCase(253374061, "8 years, 12 days, 13 hours, 41 minutes and 1 second")]
         public void formatDuration_test(int seconds, string expected)
         {
-            Assert.AreEqual(expected, HumanTimeFormat.formatDuration(seconds));
+            Assert.AreEqual(expected, HumanTimeFormat.FormatDuration(seconds));
         }
     } 
 }
