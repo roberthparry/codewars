@@ -1,6 +1,6 @@
 ﻿namespace Kata
 {
-    public class SumTreeKata
+    public static class SumTreeKata
     {
 		public class Node
         {

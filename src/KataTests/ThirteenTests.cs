@@ -9,20 +9,20 @@ namespace KataTests
     public static class ThirteenTests
     {
 
-        private static void testing(long actual, long expected)
+        private static void Testing(long actual, long expected)
         {
             Assert.AreEqual(expected, actual);
         }
 
         [Test]
-        public static void test1()
+        public static void Test1()
         {
             Console.WriteLine("Testing Thirt");
-            testing(Thirteen.Thirt(8529), 79);
-            testing(Thirteen.Thirt(85299258), 31);
-            testing(Thirteen.Thirt(5634), 57);
-            testing(Thirteen.Thirt(1111111111), 71);
-            testing(Thirteen.Thirt(987654321), 30);
+            Testing(Thirteen.Thirt(8529), 79);
+            Testing(Thirteen.Thirt(85299258), 31);
+            Testing(Thirteen.Thirt(5634), 57);
+            Testing(Thirteen.Thirt(1111111111), 71);
+            Testing(Thirteen.Thirt(987654321), 30);
         }
     }
 }

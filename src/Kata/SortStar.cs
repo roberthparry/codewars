@@ -3,7 +3,7 @@ using System.Linq;
 
 namespace Kata
 {
-    public class SortStar
+    public static class SortStar
     {
         public static string TwoSort(string[] s)
         {

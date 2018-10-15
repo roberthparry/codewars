@@ -12,7 +12,7 @@ namespace KataTests
 		[TestCase(5, "Hello", "HelloHelloHelloHelloHello")]
         public void MyTest(int n, string s, string expected)
         {
-            Assert.AreEqual(expected, StringRepeat.repeatStr(n, s));
+            Assert.AreEqual(expected, StringRepeat.RepeatStr(n, s));
         }
     }
 }

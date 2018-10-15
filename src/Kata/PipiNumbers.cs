@@ -3,9 +3,9 @@ using System.Collections.Generic;
 
 namespace Kata
 {
-    public class PipiNumbers
+    public static class PipiNumbers
     {
-        private static Dictionary<int, BigInteger> pipiNumberDict = new Dictionary<int, BigInteger>
+        private static Dictionary<int, BigInteger> _pipiNumberDict = new Dictionary<int, BigInteger>
         {
             {0, 0}
         };
@@ -13,7 +13,7 @@ namespace Kata
         public static BigInteger Pipi(int n)
         {
             BigInteger p;
-            if (!pipiNumberDict.TryGetValue(n, out p))
+            if (!_pipiNumberDict.TryGetValue(n, out p))
             {
                 if (n == 0) return new BigInteger(0);
                 p = new BigInteger(n);
@@ -22,7 +22,7 @@ namespace Kata
                     p -= Pipi(i);
                     p *= p;
                 }
-                pipiNumberDict[n] = p;
+                _pipiNumberDict[n] = p;
             }
 
             return p;

@@ -23,10 +23,5 @@ namespace Kata
             }
             return (sum % 10) == 0;
         }
-
-		internal int validate(string v)
-		{
-			throw new NotImplementedException();
-		}
 	}    
 }
