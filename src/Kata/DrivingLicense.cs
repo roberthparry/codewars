@@ -6,7 +6,7 @@ namespace Kata
 {
     class DrivingLicence
     {
-        public string driver(params string[] data)
+        public string Driver(params string[] data)
         {
             DateTime dob = DateTime.Parse(data[3]);
 
