@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace Kata
+﻿namespace Kata
 {
     public class ValidCredCard
     {

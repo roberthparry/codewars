@@ -1,6 +1,6 @@
 ﻿namespace Kata
 {
-    public class Thirteen
+    public static class Thirteen
     {
 
         private static readonly long[] _10PowMod13 = new long[] { 1, 10, 9, 12, 3, 4 };
