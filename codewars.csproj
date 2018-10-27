@@ -124,6 +124,8 @@
     <Compile Include="src\KataTests\MoveZerosToEndTest.cs" />
     <Compile Include="src\Kata\CollisionDetection.cs" />
     <Compile Include="src\KataTests\ColisionDetectionTests.cs" />
+    <Compile Include="src\Kata\ZeroZeroOneSequence.cs" />
+    <Compile Include="src\KataTests\ZeroZeroOneSequenceTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
