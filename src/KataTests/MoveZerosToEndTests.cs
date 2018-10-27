@@ -4,7 +4,7 @@
     using Kata;
 
     [TestFixture]
-    public class MoveZerosToEndTest
+    public class MoveZerosToEndTests
     {
         [Test]
         public void Test()

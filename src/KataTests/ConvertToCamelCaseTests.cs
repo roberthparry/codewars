@@ -4,7 +4,7 @@ using NUnit.Framework;
 namespace KataTests
 {
     [TestFixture]
-    public class ConvertToCamelCaseTest
+    public class ConvertToCamelCaseTests
     {
         [Test]
         public void KataTests()

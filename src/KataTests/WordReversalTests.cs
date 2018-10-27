@@ -4,13 +4,13 @@
     using Kata;
 
     [TestFixture]
-    public class MyJinxinTest
+    public class WordReversalTests
     {
 
         [Test]
         public void BasicTests()
         {
-            var kata = new MyJinxin();
+            var kata = new WordReversal();
 
             Assert.AreEqual("nahsirk", kata.ReverseLetter("krishan"));
 
