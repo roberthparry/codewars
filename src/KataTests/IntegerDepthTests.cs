@@ -4,7 +4,7 @@
     using Kata;
 
     [TestFixture]
-    public class IntegerDepthTest
+    public class IntegerDepthTests
     {
 
         [Test]

@@ -112,18 +112,20 @@
     <Compile Include="src\KataTests\UnluckyDayTests.cs" />
     <Compile Include="src\Kata\SpecialNumbers.cs" />
     <Compile Include="src\KataTests\SpecialNumbersTests.cs" />
-    <Compile Include="src\Kata\MyJinxin.cs" />
-    <Compile Include="src\KataTests\MyJinxinTest.cs" />
+    <Compile Include="src\Kata\WordReversal.cs" />
+    <Compile Include="src\KataTests\WordReversalTests.cs" />
     <Compile Include="src\Kata\IntegerDepth.cs" />
-    <Compile Include="src\KataTests\IntegerDepthTest.cs" />
+    <Compile Include="src\KataTests\IntegerDepthTests.cs" />
     <Compile Include="src\Kata\ArrayDifference.cs" />
-    <Compile Include="src\KataTests\ArrayDifferenceTest.cs" />
+    <Compile Include="src\KataTests\ArrayDifferenceTests.cs" />
     <Compile Include="src\Kata\ConvertToCamelCase.cs" />
-    <Compile Include="src\KataTests\ConvertToCamelCaseTest.cs" />
+    <Compile Include="src\KataTests\ConvertToCamelCaseTests.cs" />
     <Compile Include="src\Kata\MoveZerosToEnd.cs" />
-    <Compile Include="src\KataTests\MoveZerosToEndTest.cs" />
+    <Compile Include="src\KataTests\MoveZerosToEndTests.cs" />
     <Compile Include="src\Kata\CollisionDetection.cs" />
     <Compile Include="src\KataTests\ColisionDetectionTests.cs" />
+    <Compile Include="src\Kata\ZeroZeroOneSequence.cs" />
+    <Compile Include="src\KataTests\ZeroZeroOneSequenceTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

@@ -4,7 +4,7 @@
     using Kata;
 
     [TestFixture]
-    public class ArrayDifferenceTest
+    public class ArrayDifferenceTests
     {
         [Test]
         public void SampleTest()
