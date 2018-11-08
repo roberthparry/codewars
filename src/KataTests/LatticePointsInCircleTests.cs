@@ -16,6 +16,7 @@ namespace KataTests
         [TestCase(8, 197)]
         [TestCase(9, 253)]
         [TestCase(10, 317)]
+        [TestCase(100, 31417)]
         [TestCase(1000, 3141549)]
         [TestCase(10000, 314159053)]
         public void PointsInCircle_Test(int radius, int numPoints)
