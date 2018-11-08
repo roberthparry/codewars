@@ -4,19 +4,16 @@
     {
         public static int PointsInCircle(int radius)
         {
-            int r2 = radius * radius;
-            int count = radius;
-            for (int i = 1; i <= radius; i++)
+            int rr = radius * radius;
+            int points = radius;
+            for (int x = 1; x <= radius; x++)
             {
-                int i2 = i * i;
-                for (int j = 1; j <= radius; j++)
-                {
-                    if (i2 + j * j > r2) break;
-                    count++;
-                }
+                int xx = x * x;
+                for (int y = 1; y <= radius && xx + y * y <= rr; y++)
+                    points++;
             }
 
-            return count * 4 + 1;
+            return points * 4 + 1;
         }
     }
 }
