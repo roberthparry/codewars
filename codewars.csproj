@@ -128,6 +128,8 @@
     <Compile Include="src\KataTests\ZeroZeroOneSequenceTests.cs" />
     <Compile Include="src\Kata\DigitalSum.cs" />
     <Compile Include="src\KataTests\DigitalSumTests.cs" />
+    <Compile Include="src\Kata\LatticePointsInCircle.cs" />
+    <Compile Include="src\KataTests\LatticePointsInCircleTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
