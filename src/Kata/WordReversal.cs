@@ -1,6 +1,6 @@
 ﻿namespace Kata
 {
-    public class MyJinxin
+    public class WordReversal
     {
         public string ReverseLetter(string str)
         {
