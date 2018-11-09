@@ -4,24 +4,24 @@ using Kata;
 
 namespace KataTests
 {
-    public class ParityOutlierTestCase
-    {
-        public int[] Integers { get; }
-
-        public ParityOutlierTestCase(params int[] integers)
-        {
-            Integers = integers;
-        }
-
-        public override string ToString()
-        {
-            return string.Join(",", Integers);
-        }
-    }
-
     [TestFixture]
     public static class ParityOutlierTests
     {
+        public class ParityOutlierTestCase
+        {
+            public int[] Integers { get; }
+
+            public ParityOutlierTestCase(params int[] integers)
+            {
+                Integers = integers;
+            }
+
+            public override string ToString()
+            {
+                return string.Join(",", Integers);
+            }
+        }
+
         public static IEnumerable TestCases
         {
             get
