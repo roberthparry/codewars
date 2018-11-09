@@ -1,22 +1,16 @@
 ﻿using NUnit.Framework;
-
 using Kata;
 
 namespace KataTests
 {
 	[TestFixture]
-    public class AdditiveTests
+    public class AddColorsTests
     {
-        [Test]
-        public void Test1()
+        [TestCase("Green", "Green")]
+        [TestCase("Yellow", "Red,Green")]
+        public void AdditiveColors_Test(string expected, string mix)
         {
-            Assert.AreEqual("Green", AddColors.AdditiveColors("Green"));
-        }
-
-        [Test]
-        public void Test2()
-        {
-            Assert.AreEqual("Yellow", AddColors.AdditiveColors("Red,Green"));
+            Assert.AreEqual(expected, AddColors.AdditiveColors(mix));
         }
     }
 }
