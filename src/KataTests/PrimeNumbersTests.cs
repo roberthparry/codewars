@@ -26,6 +26,6 @@ namespace KataTests
         }
 
         [Test, TestCaseSource("_sampleTestCases")]
-        public bool SampleTest(int n) => PrimeNumbers.IsPrime(n);
+        public bool IsPrime_Test(int n) => PrimeNumbers.IsPrime(n);
     }
 }
