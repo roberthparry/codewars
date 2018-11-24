@@ -7,7 +7,7 @@ namespace KataTests
     [TestFixture]
     public class ConvertLinkedListTests
     {
-		private static IEnumerable<TestCaseData> _testCases
+		private static IEnumerable<TestCaseData> TestCases
         {
             get
             {
@@ -17,7 +17,7 @@ namespace KataTests
             }
         }
 
-		[Test, TestCaseSource("_testCases")]
+        [Test, TestCaseSource(nameof(TestCases))]
         public string SampleTest(Node list)
         {
 			return ConvertLinkedList.Stringify(list);

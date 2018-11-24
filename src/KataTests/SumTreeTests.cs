@@ -7,7 +7,7 @@
     [TestFixture]
     public class SumTreeKataTests
     {
-        private static IEnumerable<TestCaseData> testCases
+        private static IEnumerable<TestCaseData> TestCases
         {
             get
             {
@@ -16,7 +16,7 @@
             }
         }
 
-        [Test, TestCaseSource("testCases")]
+        [Test, TestCaseSource(nameof(TestCases))]
         public int Test(SumTreeKata.Node root) => SumTreeKata.SumTree(root);
     }
 }

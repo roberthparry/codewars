@@ -32,7 +32,7 @@ namespace KataTests
             }
         }
 
-        [Test, TestCaseSource(typeof(ParityOutlierTests), "TestCases")]
+        [Test, TestCaseSource(typeof(ParityOutlierTests), nameof(TestCases))]
         public static int Find_Test(ParityOutlierTestCase testCase) => ParityOutlier.Find(testCase.Integers);
     }
 }
