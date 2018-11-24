@@ -8,7 +8,7 @@ namespace KataTests
     [TestFixture]
     public class SumSquareTests
     {
-        private static IEnumerable<TestCaseData> sampleTestCases
+        private static IEnumerable<TestCaseData> SampleTestCases
         {
             get
             {
@@ -18,7 +18,7 @@ namespace KataTests
             }
         }
 
-        [Test, TestCaseSource("sampleTestCases"), Description("Sample Tests")]
+        [Test, TestCaseSource(nameof(SampleTestCases)), Description("Sample Tests")]
         public int SampleTest(int[] n) => SumSquare.SquareSum(n);
     } 
 }
