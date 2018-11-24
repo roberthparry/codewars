@@ -7,7 +7,7 @@ namespace KataTests
     [TestFixture]
     public class PrimeNumbersTests
     {
-        private static IEnumerable<TestCaseData> _sampleTestCases
+        private static IEnumerable<TestCaseData> SampleTestCases
         {
             get
             {
@@ -25,7 +25,7 @@ namespace KataTests
             }
         }
 
-        [Test, TestCaseSource("_sampleTestCases")]
+        [Test, TestCaseSource(nameof(SampleTestCases))]
         public bool IsPrime_Test(int n) => PrimeNumbers.IsPrime(n);
     }
 }
