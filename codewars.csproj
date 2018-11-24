@@ -134,6 +134,8 @@
     <Compile Include="src\KataTests\PrimeNumbersTests.cs" />
     <Compile Include="src\Kata\ParityOutlier.cs" />
     <Compile Include="src\KataTests\ParityOutlierTests.cs" />
+    <Compile Include="src\Kata\BinaryRegExp.cs" />
+    <Compile Include="src\KataTests\BinaryRegExpTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
