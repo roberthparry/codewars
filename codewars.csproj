@@ -136,6 +136,8 @@
     <Compile Include="src\KataTests\ParityOutlierTests.cs" />
     <Compile Include="src\Kata\BinaryRegExp.cs" />
     <Compile Include="src\KataTests\BinaryRegExpTests.cs" />
+    <Compile Include="src\Kata\FastFibonacci.cs" />
+    <Compile Include="src\KataTests\FastFibonacciTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
