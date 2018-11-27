@@ -138,6 +138,8 @@
     <Compile Include="src\KataTests\BinaryRegExpTests.cs" />
     <Compile Include="src\Kata\FastFibonacci.cs" />
     <Compile Include="src\KataTests\FastFibonacciTests.cs" />
+    <Compile Include="src\Kata\MeanSquareError.cs" />
+    <Compile Include="src\KataTests\MeanSquareErrorTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
