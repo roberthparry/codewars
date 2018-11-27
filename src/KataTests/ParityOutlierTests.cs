@@ -9,7 +9,7 @@ namespace KataTests
     {
         public class ParityOutlierTestCase
         {
-            public int[] Integers { get; }
+            public int[] Integers { get; private set; }
 
             public ParityOutlierTestCase(params int[] integers)
             {
