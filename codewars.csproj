@@ -140,6 +140,10 @@
     <Compile Include="src\KataTests\FastFibonacciTests.cs" />
     <Compile Include="src\Kata\MeanSquareError.cs" />
     <Compile Include="src\KataTests\MeanSquareErrorTests.cs" />
+    <Compile Include="src\Kata\CountPosSumNeg.cs" />
+    <Compile Include="src\KataTests\CountPosSumNegTests.cs" />
+    <Compile Include="src\Kata\SumFractions.cs" />
+    <Compile Include="src\KataTests\SumFractionsTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
