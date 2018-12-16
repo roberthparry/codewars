@@ -144,6 +144,8 @@
     <Compile Include="src\KataTests\CountPosSumNegTests.cs" />
     <Compile Include="src\Kata\SumFractions.cs" />
     <Compile Include="src\KataTests\SumFractionsTests.cs" />
+    <Compile Include="src\Kata\IntegerSquareRoot.cs" />
+    <Compile Include="src\KataTests\IntegerSquareRootTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
